@@ -1,0 +1,6 @@
+[component]
+name = "SigmaOS-LAN-fileshare"
+tier = 3
+description = "Zero-configuration local network file sender and receiver inspired by Warpinator"
+contracts = ['lan-fileshare', 'zeroconf-peer-discovery', 'file-transfer-daemon']
+upstream_inspirations = ['https://github.com/linuxmint/warpinator']
